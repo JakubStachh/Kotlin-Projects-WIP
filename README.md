@@ -44,10 +44,14 @@
 
 #### But if you're using e.g. Windows Powershell you should:
 
-- Make sure you have Kotlin & Java installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/) * [Java](https://www.java.com/en/download/manual.jsp):
+- Make sure you have Kotlin & Java installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/) & [Java](https://www.java.com/en/download/manual.jsp):
 
-  ```sh
+  ```
   kotlinc -version
+  ```
+  and check your **Java** version, we'll need it
+  ```
+  java --version
   ```
   
 - [Download](https://github.com/JakubStachh/Kotlin-Projects/archive/refs/heads/main.zip) the code
@@ -59,7 +63,6 @@
   ```
   kotlinc CalculatePowerofaNumber.kt -include-runtime -d CalculatePowerofaNumber.jar
   java -jar CalculatePowerofaNumber.jar
-
   ```
 #### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or `IntelliJ IDEA`
   
