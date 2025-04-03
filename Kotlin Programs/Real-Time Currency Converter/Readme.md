@@ -39,3 +39,19 @@ fun convertCurrency(amount: Double, from: String, to: String) {
     val convertedAmount = amount * rate
     println("$amount $from = $convertedAmount $to")
 }
+```
+### ✅ **`Main` Function (Testing the Implementation)**
+🔹**Calls** `convertCurrency` to convert `100 USD` to `INR`.
+
+🔹**Prints the result.**
+
+```kotlin
+fun main() {
+    convertCurrency(100.0, "USD", "INR")
+}
+```
+## 🎯 Example Output
+```
+100.0 USD = 8300.5 INR
+```
+####*(Exchange rate varies based on real-time data.)*
