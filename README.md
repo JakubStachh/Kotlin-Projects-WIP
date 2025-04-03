@@ -40,11 +40,11 @@
 
 ### 𓀃 The Actual Installation🤌🤌
 
-#### You can use [Programiz Complier](https://www.programiz.com/golang/online-compiler/) or similar online compliers to run the code
+#### You can use [OneCompiler](https://onecompiler.com/kotlin/) or similar online compliers to run the code
 
 #### But if you're using e.g. Windows Powershell you should:
 
-- Make sure you have GO installed. You can install it using [GO](https://go.dev/doc/install):
+- Make sure you have GO installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/):
 
   ```sh
   go version
