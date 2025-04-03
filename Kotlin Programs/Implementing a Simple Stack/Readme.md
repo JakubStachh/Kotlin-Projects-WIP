@@ -52,11 +52,11 @@ class Stack<T> {
 ### ✅ Main Function (Testing the Stack Implementation)
 Creates an instance of Stack<Int>.
 
-- **Pushes elements**: `10`, `20`, and `30`.
+🔹**Pushes elements**: `10`, `20`, and `30`.
 
-- **Pops the top element and prints it.**
+🔹**Pops the top element and prints it.**
 
-- **Peeks at the top element.**
+🔹 **Peeks at the top element.**
 
 ```kotlin
 fun main() {
