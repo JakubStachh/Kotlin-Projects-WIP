@@ -5,13 +5,13 @@ This Kotlin program is designed to find the most frequent element in a given lis
 
 ## 🔍 How It Works
 ### Steps:
-1. Group the elements of the list by their values using `groupingBy`.
+1. **Group the elements** of the list by their values using `groupingBy`.
 
-2. Count the occurrences of each element using `eachCount()`.
+2. **Count the occurrences** of each element using `eachCount()`.
 
-3. Find the element with the highest count by calling `maxBy` on the result.
+3. **Find the element with the highest count** by calling `maxBy` on the result.
 
-4. Return the element with the maximum frequency.
+4. **Return the element** with the maximum frequency.
 
 ### Example
 For the input list:
