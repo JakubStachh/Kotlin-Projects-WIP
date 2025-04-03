@@ -8,17 +8,17 @@ The priority queue helps in extracting the largest element, and by removing elem
 ## 🔍 How It Works
 1. **Priority Queue (Max-Heap)**:
 
-- The program uses a `PriorityQueue` in Kotlin to keep track of the elements.
+   - The program uses a `PriorityQueue` in Kotlin to keep track of the elements.
   By default, a `PriorityQueue` is a **min-heap**. However, in this case, we configure it to behave as a **max-heap** by using `compareByDescending { it }`.
   This allows us to easily retrieve the largest element at the top of the heap.
 
 2. **Process**:
 
-- The program adds all the elements of the array into the priority queue.
+   - The program adds all the elements of the array into the priority queue.
 
-- Then, it removes elements one-by-one from the queue (the largest element first) until only the Kth largest element remains.
+   - Then, it removes elements one-by-one from the queue (the largest element first) until only the Kth largest element remains.
 
-- The program returns this element.
+   - The program returns this element.
 
 ## 🎯 Example Output
 For the input array:
