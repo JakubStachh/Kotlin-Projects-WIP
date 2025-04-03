@@ -32,9 +32,10 @@ class Node(var data: Int) {
 This class manages the head of the linked list and provides utility functions.
 
 🔹 append(data: Int): Adds a node at the end of the linked list.
-If the list is empty (head == null), set head to the new node.
 
-Otherwise, iterate to the last node and set its next reference to the new node.
+🔹 If the list is empty (head == null), set head to the new node.
+
+🔹Otherwise, iterate to the last node and set its next reference to the new node.
 
 ```kotlin
 class LinkedList {
