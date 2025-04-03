@@ -1,27 +1,31 @@
-# 📌 Merging Overlapping Intervals in Kotlin
+# 📌 Merge Overlapping Intervals in Kotlin
 
 ## 🚀 Description
-This Kotlin program merges overlapping intervals in a list. Given a set of intervals, it **merges** those that overlap and returns a list of **non-overlapping** intervals.
+This Kotlin program merges **overlapping intervals** in a given list. If two intervals overlap, they are combined into one larger interval.
 
 ---
 
 ## 🔍 How It Works
 
-### **Understanding the Problem**
-Given a list of intervals, some of which may **overlap**, the goal is to merge them into the smallest possible set of **non-overlapping** intervals.
-
-#### 🟢 **Example**
-`Input: [(1,3), (2,4), (5,7), (6,8)]` & `Output: [(1,4), (5,8)]`:
-
-- **(1,3) and (2,4) overlap** → Merge to **(1,4)**
-- **(5,7) and (6,8) overlap** → Merge to **(5,8)**
+### **Concept**
+1. **Sort the intervals** based on their start times.
+2. **Iterate through the intervals**, merging overlapping ones.
+3. **If an interval overlaps with the last merged one**, update the last merged interval.
+4. **If no overlap**, add the interval to the result.
 
 ---
 
 ## 📂 Code Breakdown
 
 ### ✅ **Interval Data Class**
-The `Interval` data class represents an interval with `start` and `end` values.
+Represents an interval with a `start` and `end`.
 
 ```kotlin
 data class Interval(val start: Int, val end: Int)
+```
+### ✅ **`mergeIntervals` Function**
+- **Sorts** the intervals based on the start time.
+
+- **Iterates** through the list and merges overlapping intervals.
+
+- **Returns** a list of non-overlapping merged intervals.
