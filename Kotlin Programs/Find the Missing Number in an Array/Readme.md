@@ -72,7 +72,8 @@ $$
  
 $$
 - It computes the actual sum by calling the sum() function on the input array.
-#$$
+$$
+
 $$
 - The missing number is the difference between the expected sum and the actual sum, which is returned as the result.
 $$
