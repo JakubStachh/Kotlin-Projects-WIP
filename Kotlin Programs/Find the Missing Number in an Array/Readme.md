@@ -33,7 +33,7 @@ intArrayOf(1, 2, 4, 6, 3, 7, 8)
 ```
 ##
 $$
-\text{The expected sum for `n = 8` is `  `}  \frac{n \times (n + 1)}{2}
+\text{The expected sum for `n = 8` is}  \frac{n \times (n + 1)}{2}
 $$
 ##
 🎯 Example Output
