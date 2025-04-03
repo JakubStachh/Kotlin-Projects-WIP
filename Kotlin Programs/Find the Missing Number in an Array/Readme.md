@@ -62,17 +62,12 @@ The program outputs:
 
 - **How It Works**:
 
-    - The function calculates the expected sum using the formula 
-𝑛
-×
-(
-𝑛
-+
-1
-)
-2
-2
-n×(n+1)
+    - 
+##
+$$
+\large \text{The function calculates the expected sum using the formula}  \frac{n \times (n + 1)}{2}
+$$
+##
 ​
  .
 
