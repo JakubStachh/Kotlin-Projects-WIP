@@ -33,7 +33,7 @@ intArrayOf(1, 2, 4, 6, 3, 7, 8)
 ```
 ##
 $$
-\text{The expected sum for n = 8 is}  \frac{8 \times (8 + 1)}{2} = 36. {The The sum of the array is 1 + 2 + 4 + 6 + 3 + 7 + 8 = 31}  
+\text{The expected sum for n = 8 is}  \frac{8 \times (8 + 1)}{2} = 36. \text{The The sum of the array is 1 + 2 + 4 + 6 + 3 + 7 + 8 = 31}  
 $$
 ##
 🎯 Example Output
