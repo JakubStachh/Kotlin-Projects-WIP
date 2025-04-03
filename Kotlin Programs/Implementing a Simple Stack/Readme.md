@@ -48,3 +48,16 @@ class Stack<T> {
         return stackList.size
     }
 }
+```
+✅ Main Function (Testing the Stack Implementation)
+Creates an instance of Stack<Int>.
+
+Pushes elements: 10, 20, and 30.
+
+Pops the top element and prints it.
+
+Peeks at the top element.
+
+kotlin
+Copy
+Edit
