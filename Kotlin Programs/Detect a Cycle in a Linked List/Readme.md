@@ -14,19 +14,19 @@ If there is a cycle, the slow and fast pointers will eventually meet. If no cycl
 ## 🔍 How It Works
 1. **Two-pointer Technique**:
 
-- We initialize two pointers: `slow` and `fast`. Both start at the head of the linked list.
+   - We initialize two pointers: `slow` and `fast`. Both start at the head of the linked list.
 
-- The `slow` pointer moves one step at a time, while the `fast` pointer moves two steps at a time.
+   - The `slow` pointer moves one step at a time, while the `fast` pointer moves two steps at a time.
 
-- If there is a cycle in the list, the `slow` and `fast` pointers will eventually meet at the same node.
+   - If there is a cycle in the list, the `slow` and `fast` pointers will eventually meet at the same node.
 
-- If the `fast` pointer reaches `null`, there is no cycle.
+   - If the `fast` pointer reaches `null`, there is no cycle.
 
 2. **Cycle Detection**:
 
-- If at any point `slow == fast`, a cycle is detected, and the function returns `true`.
+   - If at any point `slow == fast`, a cycle is detected, and the function returns `true`.
 
-- If the `fast` pointer reaches the end of the list (i.e., `fast == null` or `fast.next == null`), the function returns `false`, indicating there is no cycle.
+   - If the `fast` pointer reaches the end of the list (i.e., `fast == null` or `fast.next == null`), the function returns `false`, indicating there is no cycle.
 
 ## 🎯 Example Output
 ```sh
