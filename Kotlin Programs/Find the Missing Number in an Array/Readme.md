@@ -12,7 +12,7 @@ The program uses a mathematical formula to efficiently compute the missing numbe
 
 ##
 $$
-\large \text{Expected Sum} = \frac{n \times (n + 1)}{2}
+\large \text{Expected Sum} <br> </br> = \frac{n \times (n + 1)}{2}
 $$
 ##
  
