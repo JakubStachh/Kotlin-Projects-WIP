@@ -31,11 +31,10 @@ For the input array:
 ```sh
 intArrayOf(1, 2, 4, 6, 3, 7, 8)
 ```
-##
-$$
-\text{The expected sum for n = 8 is \frac{8 \times (8 + 1)}{2} = 36. The The sum of the array is 1 + 2 + 4 + 6 + 3 + 7 + 8 = 31. The missing number is 36−31=5.}  
-$$
-##
+\[
+\text{The expected sum for } n = 8 \text{ is } \frac{8 \times (8 + 1)}{2} = 36. \text{ The sum of the array is } 1 + 2 + 4 + 6 + 3 + 7 + 8 = 31. \text{ The missing number is } 36 - 31 = 5.
+\]
+
 ## 🎯 Example Output
 ### For the input array:
 
