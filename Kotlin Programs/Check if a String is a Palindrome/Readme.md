@@ -8,29 +8,26 @@ A palindrome is a word, phrase, number, or other sequence of characters that rea
 
 - **Comparison**: The function compares the original string with the reversed string. If both are the same, the string is a palindrome, and the function returns `true`. Otherwise, it returns `false`.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 true
-📂 Code Breakdown
-isPalindrome Function:
-Input: str (the string to check).
+```
+## 📂 Code Breakdown
+### `isPalindrome` Function:
+- **Input**: `str` (the string to check).
 
-Output: true if the string is a palindrome, false otherwise.
+- **Output**: `true` if the string is a palindrome, `false` otherwise.
 
-How It Works:
+- **How It Works**:
 
-The function uses Kotlin's reversed() method to reverse the string.
+     - The function uses Kotlin's `reversed()` method to reverse the string.
 
-It then checks if the original string is the same as the reversed one.
+     - It then checks if the original string is the same as the reversed one.
 
-main Function:
-The main function tests the isPalindrome function by calling it with the string "madam", which is a palindrome.
-
-kotlin
-Copy
-Edit
+### `main` Function:
+- The `main` function tests the `isPalindrome` function by calling it with the string `"madam"`, which is a palindrome.
+```sh
 fun main() {
     println(isPalindrome("madam"))  // Output: true
 }
+```
