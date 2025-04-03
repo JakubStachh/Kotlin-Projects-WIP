@@ -62,10 +62,10 @@ The program outputs:
 
 - **How It Works**:
 
-    - 
+  
 ##
 $$
-\large \text{The function calculates the expected sum using the formula}  \frac{n \times (n + 1)}{2}
+\small \text{The function calculates the expected sum using the formula} : \frac{n \times (n + 1)}{2}
 $$
 ##
 ​
