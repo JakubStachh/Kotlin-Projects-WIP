@@ -27,3 +27,35 @@ The `Node` class represents a **single node** in the linked list. Each node stor
 class Node(var data: Int) {
     var next: Node? = null
 }
+```
+## ✅ LinkedList Class
+This class manages the head of the linked list and provides utility functions.
+
+🔹 append(data: Int): Adds a node at the end of the linked list.
+If the list is empty (head == null), set head to the new node.
+
+Otherwise, iterate to the last node and set its next reference to the new node.
+
+```kotlin
+class LinkedList {
+    var head: Node? = null
+
+    fun append(data: Int) {
+        val newNode = Node(data)
+        if (head == null) {
+            head = newNode
+        } else {
+            var temp = head
+            while (temp?.next != null) {
+                temp = temp.next
+            }
+            temp?.next = newNode
+        }
+    }
+}
+```
+🔹 `printList()`: **Prints the linked list in a readable format**.
+
+🔹 Iterates through the list and prints each node’s `data` followed by `"->"`.
+
+🔹 Ends with `"null"` to indicate the end of the list.
