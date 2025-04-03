@@ -5,7 +5,7 @@
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
 <br><br>
-# 
+---
 <br><br>
 # 🛠 Programs
 - ✅ [Calculate Power of a Number](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Calculate%20Power%20of%20a%20Number)
