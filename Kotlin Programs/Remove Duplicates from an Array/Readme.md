@@ -24,3 +24,13 @@ This Kotlin program demonstrates how to remove duplicate elements from a list us
 fun removeDuplicates(arr: List<Int>): List<Int> {
     return arr.distinct()
 }
+```
+### ✅ **`Main` Function (Testing the Implementation)**
+🔹**Calls** `removeDuplicates` on the list `[1, 2, 2, 3, 4, 4, 5]`.
+
+🔹**Prints the result.**
+
+## 🎯 Example Output
+```
+[1, 2, 3, 4, 5]
+```
