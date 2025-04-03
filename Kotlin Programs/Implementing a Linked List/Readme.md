@@ -77,3 +77,8 @@ fun main() {
     list.printList()  // Output: 10 -> 20 -> 30 -> null
 }
 ```
+
+## 🎯 Example Output
+```
+10 -> 20 -> 30 -> null
+```
