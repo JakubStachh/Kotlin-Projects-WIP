@@ -52,12 +52,12 @@
   
 - [Download](https://github.com/JakubStachh/Kotlin-Projects/archive/refs/heads/main.zip) the code
 - Unpack the zip file
-- Find the `GO-Projects-main\GO Projects\`
-- Open the folder of the program You want to try out `GO-Projects-main\GO Projects\Anagram Check`
+- Find the `Kotlin-Projects-main\Kotlin Programs`
+- Open the folder of the program You want to try out `Kotlin-Projects-main\Kotlin Programs\Calculate Power of a Number`
 - and then run:
   
   ```
-  kotlinc -script Example.kt
+  kotlinc -script CalculatePowerofaNumber.kt
   ```
 #### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or `IntelliJ IDEA`
   
