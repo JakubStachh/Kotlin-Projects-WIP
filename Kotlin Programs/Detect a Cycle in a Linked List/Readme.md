@@ -68,14 +68,11 @@ fun hasCycle(head: Node?): Boolean {
     return false
 }
 ```
-main Function:
-In the main function, we create a linked list and introduce a cycle by setting node4.next = node2.
+### `main` Function:
+- In the `main` function, we create a linked list and introduce a cycle by setting `node4.next = node2`.
 
-We then call hasCycle to check if the list contains a cycle.
-
-kotlin
-Copy
-Edit
+- We then call `hasCycle` to check if the list contains a cycle.
+```sh
 fun main() {
     val node1 = Node(1)
     val node2 = Node(2)
@@ -89,3 +86,4 @@ fun main() {
 
     println(hasCycle(node1))  // Output: true
 }
+```
