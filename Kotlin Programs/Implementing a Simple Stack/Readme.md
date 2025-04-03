@@ -69,3 +69,8 @@ fun main() {
     println(stack.peek()) // Output: 20
 }
 ```
+## 🎯 Example Output
+```
+30
+20
+```
