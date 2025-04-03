@@ -36,23 +36,20 @@ $$
 \text{The expected sum for n = 8 is \frac{8 \times (8 + 1)}{2} = 36. The The sum of the array is 1 + 2 + 4 + 6 + 3 + 7 + 8 = 31. The missing number is 36−31=5.}  
 $$
 ##
-🎯 Example Output
-For the input array:
+## 🎯 Example Output
+### For the input array:
 
-kotlin
-Copy
-Edit
+```sh
 val arr = intArrayOf(1, 2, 4, 6, 3, 7, 8)
 val n = 8
+```
 The program outputs:
-
-sh
-Copy
-Edit
+```sh
 5
-📂 Code Breakdown
-findMissingNumber Function:
-Input:
+```
+## 📂 Code Breakdown
+### `findMissingNumber` Function:
+- **Input**:
 
 arr: IntArray (The array of integers with one missing number).
 
