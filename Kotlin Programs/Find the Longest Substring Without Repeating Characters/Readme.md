@@ -70,12 +70,10 @@ fun longestUniqueSubstring(str: String): Int {
 
     return maxLength
 }
-main Function:
-The main function tests the longestUniqueSubstring function with the string "abcabcbb" and prints the result.
-
-kotlin
-Copy
-Edit
+```
+### `main` Function:
+- The `main` function tests the `longestUniqueSubstring` function with the string `"abcabcbb"` and prints the result.
+```sh
 fun main() {
     println(longestUniqueSubstring("abcabcbb"))  // Output: 3 ("abc")
 }
