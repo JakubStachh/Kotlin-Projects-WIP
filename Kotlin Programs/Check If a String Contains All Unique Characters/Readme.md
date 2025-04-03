@@ -1,19 +1,20 @@
 # 📌Checking Unique Characters in a String in Kotlin
 🚀 Description
-This Kotlin program defines a function hasUniqueCharacters(str: String): Boolean to check if a given string contains only unique characters. It compares the length of the string with the size of the set created from the string's characters. If both values are equal, it means the string has unique characters.
+This Kotlin program defines a function `hasUniqueCharacters(str: String): Boolean` to check if a given string contains only unique characters. 
+It compares the length of the string with the size of the set created from the string's characters. If both values are equal, it means the string has unique characters.
 
-🔍 How It Works
-Convert the String to a Set:
-The toSet() function is called on the string, which converts the string into a set. Since sets do not allow duplicate values, any repeated characters will be removed.
+## 🔍 How It Works
+- **Convert the String to a Set**:
+    The `toSet()` function is called on the string, which converts the string into a set. Since sets do not allow duplicate values, any repeated characters will be removed.
 
-Compare the Lengths:
-The function compares the length of the original string with the size of the set. If the lengths are equal, it means the string contains only unique characters, as no duplicates exist in the set.
+- **Compare the Lengths:**
+    The function compares the length of the original string with the size of the set. If the lengths are equal, it means the string contains only unique characters, as no duplicates exist in the set.
 
-Return True or False:
+- **Return True or False**:
 
-If the string has only unique characters, the length of the string will be the same as the size of the set, and the function returns true.
+    - If the string has only unique characters, the length of the string will be the same as the size of the set, and the function returns `true`.
 
-Otherwise, the function returns false.
+    - Otherwise, the function returns `false`.
 
 🎯 Example Output
 sh
