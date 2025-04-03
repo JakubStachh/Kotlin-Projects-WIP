@@ -67,15 +67,12 @@ The program outputs:
 $$
 \small \text{- The function calculates the expected sum using the formula} : \frac{n \times (n + 1)}{2}
 $$
-$$
-\small \text{- It computes the actual sum by calling the sum() function on the input array.}
-$$
-
-
-$$
-\small \text{- The missing number is the difference between the expected sum and the actual sum, which is returned as the result.}
-$$
 ##
+
+- It computes the actual sum by calling the sum() function on the input array.
+- 
+- The missing number is the difference between the expected sum and the actual sum, which is returned as the result.
+
 ​
 - It computes the actual sum by calling the sum() function on the input array.
 
