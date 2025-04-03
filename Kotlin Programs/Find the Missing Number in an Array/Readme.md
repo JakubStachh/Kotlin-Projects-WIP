@@ -10,11 +10,9 @@ The program uses a mathematical formula to efficiently compute the missing numbe
 
      - The sum of integers from `1` to `n` can be calculated using the formula:
 
-##
-$$
-\large Expected Sum = (n x (n + 1))/2
-$$​
-##
+\[
+\text{Expected Sum} = \frac{n \times (n + 1)}{2}
+\]
  
 This gives the sum of all numbers from 1 to n if no numbers were missing.
 
