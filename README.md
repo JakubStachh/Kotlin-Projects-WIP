@@ -1,4 +1,4 @@
-# 🐕 Kotlin `"Project"`
+# [🐕](https://youtu.be/GtATwKPs52w?si=Cyj4r21aKSpGACPJ) Kotlin `"Project"`
 
 ## 📚 Table of Contents
 - [Programs](#-programs)
@@ -47,7 +47,7 @@
 - Make sure you have GO installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/):
 
   ```sh
-  go version
+  kotlinc -version
   ```
   
 - [Download](https://github.com/JakubStachh/GO-Projects/archive/refs/heads/main.zip) the code
@@ -56,10 +56,10 @@
 - Open the folder of the program You want to try out `GO-Projects-main\GO Projects\Anagram Check`
 - and then run:
   
-  ```sh
-  go run AnagramCheck.go
   ```
-#### Should work in `Visual Studio Code` if yours *had been already set up for Golang*
+  kotlinc -script Example.kt
+  ```
+#### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or [**IntelliJ IDEA**]()
   
   [GET ME BACK](#-table-of-contents)
   #
