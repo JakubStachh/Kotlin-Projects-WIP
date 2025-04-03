@@ -59,7 +59,7 @@
   ```
   kotlinc -script Example.kt
   ```
-#### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or IntelliJ IDEA
+#### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or `IntelliJ IDEA`
   
   [GET ME BACK](#-table-of-contents)
   #
