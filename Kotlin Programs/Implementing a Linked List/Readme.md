@@ -61,7 +61,7 @@ class LinkedList {
 
 🔹 Ends with `"null"` to indicate the end of the list.
 
-✅ Main Function (Testing the Implementation)
+## ✅ Main Function (Testing the Implementation)
 - **Creates an instance of `LinkedList`**.
 
 - **Appends elements: `10`, `20`, and `30`.**
