@@ -31,9 +31,11 @@ For the input array:
 ```sh
 intArrayOf(1, 2, 4, 6, 3, 7, 8)
 ```
+##
 $$
 The expected sum for n = 8 is \frac{n \times (n + 1)}{2}
 $$
+##
 🎯 Example Output
 For the input array:
 
