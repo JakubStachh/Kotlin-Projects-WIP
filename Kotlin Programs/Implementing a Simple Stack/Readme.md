@@ -49,7 +49,7 @@ class Stack<T> {
     }
 }
 ```
-✅ Main Function (Testing the Stack Implementation)
+### ✅ Main Function (Testing the Stack Implementation)
 Creates an instance of Stack<Int>.
 
 Pushes elements: 10, 20, and 30.
