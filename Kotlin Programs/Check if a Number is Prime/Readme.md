@@ -12,31 +12,29 @@ This Kotlin program defines a function `isPrime(n: Int): Boolean` to check wheth
 3. **Return True**:
         If the loop completes without finding a divisor, the function returns `true`, indicating that the number is prime.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 true
-📂 Code Breakdown
-isPrime Function:
-Input: n (the integer to check).
+```
+## 📂 Code Breakdown
+### `isPrime` Function:
+- **Input**: `n` (the integer to check).
 
-Output: true if the number is prime, false otherwise.
+- **Output**: `true` if the number is prime, `false` otherwise.
 
-How It Works:
+- **How It Works**:
 
-If n is less than or equal to 1, return false.
+     - If `n` is less than or equal to 1, return `false`.
 
-Iterate from 2 to n - 1 and check if any number divides n evenly.
+     - Iterate from 2 to `n - 1` and check if any number divides `n` evenly.
 
-If no such number is found, return true.
+     - If no such number is found, return `true`.
 
-main Function:
-The main function tests the isPrime function by calling it with the number 17 (which is prime).
+### `main` Function:
+- The `main` function tests the `isPrime` function by calling it with the number `17` (which is prime).
 
-kotlin
-Copy
-Edit
+```sh
 fun main() {
     println(isPrime(17))  // Output: true
 }
+```
