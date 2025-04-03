@@ -1,5 +1,5 @@
 fun mostFrequent(arr: List<Int>): Int? {
-    return arr.groupingBy { it }.eachCount().maxByOrNull { it.value }?.key
+    return arr.groupingBy { it }.eachCount().maxBy { it.value }?.key
 }
 
 fun main() {
