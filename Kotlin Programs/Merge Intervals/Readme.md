@@ -29,3 +29,37 @@ data class Interval(val start: Int, val end: Int)
 - **Iterates** through the list and merges overlapping intervals.
 
 - **Returns** a list of non-overlapping merged intervals.
+
+```kotlin
+fun main() {
+    val intervals = listOf(
+        Interval(1, 3),
+        Interval(2, 4),
+        Interval(5, 7),
+        Interval(6, 8)
+    )
+    mergeIntervals(intervals).forEach { println("[${it.start}, ${it.end}]") }
+}
+```
+### ✅ **Main Function (Testing the Implementation)**
+🔹**Creates** a list of intervals. 
+
+🔹**Calls `mergeIntervals`** to merge overlapping intervals.
+
+🔹**Prints** the merged intervals.
+```kotlin
+fun main() {
+    val intervals = listOf(
+        Interval(1, 3),
+        Interval(2, 4),
+        Interval(5, 7),
+        Interval(6, 8)
+    )
+    mergeIntervals(intervals).forEach { println("[${it.start}, ${it.end}]") }
+}
+```
+## 🎯 Example Output
+```
+[1, 4]
+[5, 8]
+```
