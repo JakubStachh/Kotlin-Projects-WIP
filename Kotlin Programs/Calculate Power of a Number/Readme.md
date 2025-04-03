@@ -1,4 +1,6 @@
-# 🚀 Description
+# 📌 Calculate Power of a Number
+
+## 🚀 Description
 This Kotlin program defines a recursive function `power(base: Int, exp: Int): Int` to calculate the result of raising a number (`base`) to a given power (`exp`). The program uses recursion to compute the result of the exponentiation.
 
 ## 🔍 How It Works
