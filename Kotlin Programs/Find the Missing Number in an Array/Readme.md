@@ -16,61 +16,24 @@ $$
 $$
 ##
  
-  - This gives the sum of all numbers from 1 to n if no numbers were missing.
+  - This gives the sum of all numbers from `1` to `n` if no numbers were missing.
 
 2. **Steps to Find the Missing Number**:
 
-Calculate the expected sum of numbers from 1 to n.
+  - Calculate the expected sum of numbers from `1` to `n`.
 
-Calculate the sum of the numbers present in the array (actualSum).
+  - Calculate the sum of the numbers present in the array (`actualSum`).
 
-Subtract the actualSum from the expectedSum. The result will be the missing number.
+  - Subtract the `actualSum` from the `expectedSum`. The result will be the missing number.
 
-Example
+### Example
 For the input array:
-
-kotlin
-Copy
-Edit
+```sh
 intArrayOf(1, 2, 4, 6, 3, 7, 8)
-The expected sum for n = 8 is 
-8
-×
-(
-8
-+
-1
-)
-2
-=
-36
-2
-8×(8+1)
-​
- =36. The sum of the array is 
-1
-+
-2
-+
-4
-+
-6
-+
-3
-+
-7
-+
-8
-=
-31
-1+2+4+6+3+7+8=31. The missing number is 
-36
-−
-31
-=
-5
-36−31=5.
-
+```
+$$
+The expected sum for n = 8 is \frac{n \times (n + 1)}{2}
+$$
 🎯 Example Output
 For the input array:
 
