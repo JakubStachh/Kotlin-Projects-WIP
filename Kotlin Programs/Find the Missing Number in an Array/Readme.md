@@ -52,17 +52,17 @@ The program outputs:
 ### `findMissingNumber` Function:
 - **Input**:
 
-arr: IntArray (The array of integers with one missing number).
+    - `arr: IntArray` (The array of integers with one missing number).
 
-n: Int (The number of elements that should be in the array).
+    - `n: Int` (The number of elements that should be in the array).
 
-Output:
+- **Output**:
 
-The missing number from the array.
+    - The missing number from the array.
 
-How It Works:
+- **How It Works**:
 
-The function calculates the expected sum using the formula 
+    - The function calculates the expected sum using the formula 
 𝑛
 ×
 (
