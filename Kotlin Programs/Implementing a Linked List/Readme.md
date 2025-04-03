@@ -60,3 +60,20 @@ class LinkedList {
 🔹 Iterates through the list and prints each node’s `data` followed by `"->"`.
 
 🔹 Ends with `"null"` to indicate the end of the list.
+
+✅ Main Function (Testing the Implementation)
+- **Creates an instance of `LinkedList`**.
+
+- **Appends elements: `10`, `20`, and `30`.**
+
+- **Calls `printList()` to display the linked list.**
+
+```kotlin
+fun main() {
+    val list = LinkedList()
+    list.append(10)
+    list.append(20)
+    list.append(30)
+    list.printList()  // Output: 10 -> 20 -> 30 -> null
+}
+```
