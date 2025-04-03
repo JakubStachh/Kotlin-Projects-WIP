@@ -8,8 +8,8 @@
 # 
 <br><br>
 # 🛠 Programs
-- ✅ [Anagram Check](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Anagram%20Check)
-- ✅ [Breadth-First Search (BFS) in a Graph](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Breadth-First%20Search%20(BFS)%20in%20a%20Graph)
+- ✅ [Calculate Power of a Number](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Calculate%20Power%20of%20a%20Number)
+- ✅ [Check If a String Contains All Unique Characters](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Check%20If%20a%20String%20Contains%20All%20Unique%20Characters)
 - ✅ [Check if a Number is Prime](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Check%20if%20a%20Number%20is%20Prime)
 - ✅ [Check if a String Contains All Unique Characters](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Check%20if%20a%20String%20Contains%20All%20Unique%20Characters)
 - ✅ [Depth-First Search (DFS) in a Graph](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Depth-First%20Search%20(DFS)%20in%20a%20Graph)
