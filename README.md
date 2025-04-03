@@ -44,7 +44,7 @@
 
 #### But if you're using e.g. Windows Powershell you should:
 
-- Make sure you have GO installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/):
+- Make sure you have Kotlin installed. You can install it using instrucions from [ultahost.com](https://ultahost.com/knowledge-base/install-kotlin-windows/):
 
   ```sh
   kotlinc -version
