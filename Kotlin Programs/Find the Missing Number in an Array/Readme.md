@@ -70,27 +70,20 @@ The program outputs:
 
 - The missing number is the difference between the expected sum and the actual sum, which is returned as the result.
 
-​
-- It computes the actual sum by calling the sum() function on the input array.
 
-- The missing number is the difference between the expected sum and the actual sum, which is returned as the result.
-
-kotlin
-Copy
-Edit
+```sh
 fun findMissingNumber(arr: IntArray, n: Int): Int {
     val expectedSum = (n * (n + 1)) / 2
     val actualSum = arr.sum()
     return expectedSum - actualSum
 }
-main Function:
-The main function tests the findMissingNumber function with the array intArrayOf(1, 2, 4, 6, 3, 7, 8) and prints the result.
-
-kotlin
-Copy
-Edit
+```
+### `main` Function:
+- The `main` function tests the `findMissingNumber` function with the array `intArrayOf(1, 2, 4, 6, 3, 7, 8)` and prints the result.
+```sh
 fun main() {
     val arr = intArrayOf(1, 2, 4, 6, 3, 7, 8)
     val n = 8
     println(findMissingNumber(arr, n))  // Output: 5
 }
+```
