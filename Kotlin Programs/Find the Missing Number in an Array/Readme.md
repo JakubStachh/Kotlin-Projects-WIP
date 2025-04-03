@@ -8,7 +8,7 @@ The program uses a mathematical formula to efficiently compute the missing numbe
 ## 🔍 How It Works
 1. **Formula for Sum of First `n` Natural Numbers**:
 
-     - The sum of integers from `1` to `n` can be calculated using the formula:
+   - The sum of integers from `1` to `n` can be calculated using the formula:
 
 ##
 $$
@@ -16,9 +16,9 @@ $$
 $$
 ##
  
-This gives the sum of all numbers from 1 to n if no numbers were missing.
+  - This gives the sum of all numbers from 1 to n if no numbers were missing.
 
-Steps to Find the Missing Number:
+2. **Steps to Find the Missing Number**:
 
 Calculate the expected sum of numbers from 1 to n.
 
