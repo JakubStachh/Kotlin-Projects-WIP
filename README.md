@@ -64,7 +64,6 @@
   kotlinc CalculatePowerofaNumber.kt -include-runtime -d CalculatePowerofaNumber.jar
   java -jar CalculatePowerofaNumber.jar
   ```
-#### Should work in `Visual Studio Code` if yours *had been already set up for Golang* or `IntelliJ IDEA`
   
   [GET ME BACK](#-table-of-contents)
   #
