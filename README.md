@@ -4,9 +4,9 @@
 - [Programs](#-programs)
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
-<br><br>
+
 ---
-<br><br>
+
 # 🛠 Programs
 - ✅ [Calculate Power of a Number](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Calculate%20Power%20of%20a%20Number)
 - ✅ [Check If a String Contains All Unique Characters](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Check%20If%20a%20String%20Contains%20All%20Unique%20Characters)
@@ -31,9 +31,9 @@
 - ✅ [Reverse a String](https://github.com/JakubStachh/Kotlin-Projects/tree/main/Kotlin%20Programs/Reverse%20a%20String)
 
   [GET ME BACK](#-table-of-contents)
-<br><br>
+
 ---
-<br><br>
+
 
   
 # 📦 La Installation
@@ -66,17 +66,9 @@
   ```
   
   [GET ME BACK](#-table-of-contents)
-  #
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br>....<br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  
+
+---
+
 # THANK YOU!
 ```sh
 1. And Voilà! You've done it! You've actually checked my code! 
